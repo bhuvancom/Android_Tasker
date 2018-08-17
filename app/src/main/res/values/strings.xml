@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TasKer</string>
+    <string name="main_add_task">ADD TASK</string>
+</resources>

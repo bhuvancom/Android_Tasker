@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/rectangle"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray"
+        android:padding="6dp"
+        android:text="Date will show here"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_isDone"
+    android:text="Task Completed"
+    android:background="@android:color/darker_gray"
+    android:padding="6dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="12dp"
+    android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/tv_textTaskInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="This is sample text"
+            android:maxHeight="200dp"
+            android:layout_below="@id/tv_date"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+</RelativeLayout>
